@@ -12,8 +12,8 @@
     "Children": [],
     "IsEnabled": true,
     "ScaleLocal": "1, 1, 1",
-    "RotationLocal": "-12.350895, -16.819221, 0",
-    "PositionLocal": "-17.097822, 34.091595, 58.985565"
+    "RotationLocal": "-37.05868, -23.196367, 0",
+    "PositionLocal": "0.18627298, 9.461297, 13.807564"
   },
   "Name": "Root",
   "Children": [
@@ -118,6 +118,13 @@
       "ScaleLocal": "1, 1, 1",
       "RotationLocal": "0, -22, 0",
       "PositionLocal": "18, 0, 0"
+    },
+    {
+      "$type": "DigitalRise.SceneGraph.PrefabNode, DigitalRise",
+      "PrefabPath": "D:\\Projects\\DigitalRise.Samples\\DigitalRise.Samples.FNA.Core\\Assets\\Prefabs\\RustyCube.prefab",
+      "IsEnabled": true,
+      "ScaleLocal": "1, 1, 1",
+      "PositionLocal": "7, 2, 8"
     }
   ],
   "IsEnabled": true,

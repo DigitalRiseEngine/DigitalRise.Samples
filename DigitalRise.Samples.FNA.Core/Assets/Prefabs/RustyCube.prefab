@@ -1,0 +1,23 @@
+{
+  "$type": "DigitalRise.SceneGraph.DrModelNode, DigitalRise",
+  "ModelPath": "D:\\Projects\\DigitalRise.Samples\\DigitalRise.Samples.FNA.Core\\Assets\\Models\\RustyCube.glb",
+  "MeshMaterials": [
+    {
+      "MeshName": "Cube",
+      "Materials": [
+        {
+          "$type": "DigitalRise.Data.Materials.DefaultMaterial, DigitalRise",
+          "Name": "RustyMetal01_normal.png",
+          "DiffuseColor": "255, 255, 255, 255",
+          "DiffuseTexturePath": "D:\\Projects\\DigitalRise.Samples\\DigitalRise.Samples.FNA.Core\\Assets\\Models\\RustyMetal01_diffuse.png",
+          "SpecularTexturePath": "D:\\Projects\\DigitalRise.Samples\\DigitalRise.Samples.FNA.Core\\Assets\\Models\\RustyMetal01_specular.png",
+          "SpecularPower": 100.0
+        }
+      ]
+    }
+  ],
+  "Children": [],
+  "IsEnabled": true,
+  "CastsShadows": true,
+  "ScaleLocal": "1, 1, 1"
+}

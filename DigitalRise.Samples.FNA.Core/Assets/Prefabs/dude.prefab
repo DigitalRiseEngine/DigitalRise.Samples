@@ -1,0 +1,8 @@
+{
+  "$type": "DigitalRise.SceneGraph.DrModelNode, DigitalRise",
+  "ModelPath": "..\\Models\\Dude.glb",
+  "Children": [],
+  "IsEnabled": true,
+  "CastsShadows": true,
+  "ScaleLocal": "0.1, 0.2, 0.1"
+}

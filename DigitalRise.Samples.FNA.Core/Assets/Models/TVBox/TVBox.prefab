@@ -1,0 +1,28 @@
+{
+  "$type": "DigitalRise.SceneGraph.DrModelNode, DigitalRise.Graphics",
+  "ModelPath": "TVBox.drm",
+  "Materials": [
+    {
+      "$type": "DigitalRise.Data.Materials.DefaultMaterial, DigitalRise.Graphics",
+      "Name": "Wood__Red_Parquet2_diffuse_png",
+      "DiffuseColor": "255, 255, 255, 255",
+      "SpecularColor": "255, 255, 255, 255",
+      "DiffuseTexturePath": "Red_Parquet2_diffuse.dds",
+      "SpecularTexturePath": "Red_Parquet2_specular.dds",
+      "SpecularPower": 80.0,
+      "NormalTexturePath": "Red_Parquet2_normal.dds"
+    },
+    {
+      "$type": "DigitalRise.Data.Materials.DefaultMaterial, DigitalRise.Graphics",
+      "Name": "TVScreen__TestCard_png",
+      "DiffuseColor": "204, 204, 204, 255",
+      "SpecularColor": "255, 255, 255, 255",
+      "DiffuseTexturePath": "TestCard.dds",
+      "SpecularPower": 80.0
+    }
+  ],
+  "Children": [],
+  "IsEnabled": true,
+  "CastsShadows": true,
+  "ScaleLocal": "1, 1, 1"
+}

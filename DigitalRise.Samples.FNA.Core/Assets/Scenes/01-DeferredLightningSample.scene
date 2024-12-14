@@ -12,8 +12,8 @@
     "Children": [],
     "IsEnabled": true,
     "ScaleLocal": "1, 1, 1",
-    "RotationLocal": "-20.828667, -20.081606, 0",
-    "PositionLocal": "-1.0030892, 4.078604, 6.7375636"
+    "RotationLocal": "-67.85074, 0.8938041, 0",
+    "PositionLocal": "-1.8108888, 13.332208, 9.929181"
   },
   "Name": "Root",
   "Children": [
@@ -119,6 +119,23 @@
       "IsEnabled": true,
       "ScaleLocal": "1, 1, 1",
       "PositionLocal": "5, 1, 3"
+    },
+    {
+      "$type": "DigitalRise.SceneGraph.PrefabNode, DigitalRise.Graphics",
+      "PrefabPath": "D:\\Projects\\DigitalRise.Samples\\DigitalRise.Samples.FNA.Core\\Assets\\Models\\MetalGrateBox\\MetalGrateBox.prefab",
+      "Children": [],
+      "IsEnabled": true,
+      "ScaleLocal": "1, 1, 1",
+      "PositionLocal": "0, 1, 6"
+    },
+    {
+      "$type": "DigitalRise.SceneGraph.PrefabNode, DigitalRise.Graphics",
+      "PrefabPath": "D:\\Projects\\DigitalRise.Samples\\DigitalRise.Samples.FNA.Core\\Assets\\Models\\TVBox\\TVBox.prefab",
+      "Children": [],
+      "IsEnabled": true,
+      "ScaleLocal": "1, 1, 1",
+      "RotationLocal": "180, 0, 0",
+      "PositionLocal": "-5, 1, 5"
     }
   ],
   "IsEnabled": true,

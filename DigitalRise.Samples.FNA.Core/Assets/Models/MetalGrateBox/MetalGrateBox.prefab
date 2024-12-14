@@ -1,0 +1,20 @@
+{
+  "$type": "DigitalRise.SceneGraph.DrModelNode, DigitalRise.Graphics",
+  "ModelPath": "MetalGrateBox.drm",
+  "Materials": [
+    {
+      "$type": "DigitalRise.Data.Materials.DefaultMaterial, DigitalRise.Graphics",
+      "Name": "RustyMetal01__RustyMetal01_normal_png",
+      "DiffuseColor": "204, 204, 204, 255",
+      "SpecularColor": "255, 255, 255, 255",
+      "DiffuseTexturePath": "Metal_Grate_diffuse.dds",
+      "SpecularTexturePath": "Metal_Grate_specular.dds",
+      "SpecularPower": 80.0,
+      "NormalTexturePath": "Metal_Grate_normal.dds"
+    }
+  ],
+  "Children": [],
+  "IsEnabled": true,
+  "CastsShadows": true,
+  "ScaleLocal": "1, 1, 1"
+}

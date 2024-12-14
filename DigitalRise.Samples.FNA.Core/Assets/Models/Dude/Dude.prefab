@@ -1,0 +1,55 @@
+{
+  "$type": "DigitalRise.SceneGraph.DrModelNode, DigitalRise.Graphics",
+  "ModelPath": "Dude.drm",
+  "Materials": [
+    {
+      "$type": "DigitalRise.Data.Materials.DefaultMaterial, DigitalRise.Graphics",
+      "Name": "character_anim:headM",
+      "DiffuseColor": "255, 255, 255, 255",
+      "SpecularColor": "127, 127, 127, 255",
+      "DiffuseTexturePath": "head.dds",
+      "SpecularTexturePath": "headS.dds",
+      "SpecularPower": 1.2457309
+    },
+    {
+      "$type": "DigitalRise.Data.Materials.DefaultMaterial, DigitalRise.Graphics",
+      "Name": "character_anim:jacketM",
+      "DiffuseColor": "255, 255, 255, 255",
+      "SpecularColor": "127, 127, 127, 255",
+      "DiffuseTexturePath": "jacket.dds",
+      "SpecularTexturePath": "jacketS.dds",
+      "SpecularPower": 1.2457309
+    },
+    {
+      "$type": "DigitalRise.Data.Materials.DefaultMaterial, DigitalRise.Graphics",
+      "Name": "character_anim:pantsM",
+      "DiffuseColor": "204, 204, 204, 255",
+      "SpecularColor": "127, 127, 127, 255",
+      "DiffuseTexturePath": "pants.dds",
+      "SpecularTexturePath": "pantsS.dds",
+      "SpecularPower": 1.2457309
+    },
+    {
+      "$type": "DigitalRise.Data.Materials.DefaultMaterial, DigitalRise.Graphics",
+      "Name": "character_anim:upBodyM",
+      "DiffuseColor": "255, 255, 255, 255",
+      "SpecularColor": "127, 127, 127, 255",
+      "DiffuseTexturePath": "upBodyC.dds",
+      "SpecularTexturePath": "upBodyS.dds",
+      "SpecularPower": 1.1937197
+    },
+    {
+      "$type": "DigitalRise.Data.Materials.DefaultMaterial, DigitalRise.Graphics",
+      "Name": "character_anim:eyeBallM",
+      "DiffuseColor": "255, 255, 255, 255",
+      "SpecularColor": "127, 127, 127, 255",
+      "DiffuseTexturePath": "upBodyC.dds",
+      "SpecularTexturePath": "upBodyS.dds",
+      "SpecularPower": 65.986
+    }
+  ],
+  "Children": [],
+  "IsEnabled": true,
+  "CastsShadows": true,
+  "ScaleLocal": "0.02, 0.02, 0.02"
+}

@@ -1,5 +1,5 @@
 {
-  "$type": "DigitalRise.SceneGraph.Scenes.Scene, DigitalRise",
+  "$type": "DigitalRise.SceneGraph.Scenes.Scene, DigitalRise.Graphics",
   "EnableMultithreading": true,
   "Camera": {
     "ViewVolume": {
@@ -12,25 +12,25 @@
     "Children": [],
     "IsEnabled": true,
     "ScaleLocal": "1, 1, 1",
-    "RotationLocal": "-37.05868, -23.196367, 0",
-    "PositionLocal": "0.18627298, 9.461297, 13.807564"
+    "RotationLocal": "-20.828667, -20.081606, 0",
+    "PositionLocal": "-1.0030892, 4.078604, 6.7375636"
   },
   "Name": "Root",
   "Children": [
     {
-      "$type": "DigitalRise.SceneGraph.Sky.SkyboxNode, DigitalRise",
+      "$type": "DigitalRise.SceneGraph.Sky.SkyboxNode, DigitalRise.Graphics",
       "TexturePath": "D:\\Projects\\DigitalRise.Samples\\DigitalRise.Samples.FNA.Core\\Assets\\Textures\\Sky2.dds",
       "Color": "255, 255, 255, 255",
       "Alpha": 1.0,
       "Encoding": {
-        "$type": "DigitalRise.Misc.Encodings.SRgbEncoding, DigitalRise"
+        "$type": "DigitalRise.Misc.Encodings.SRgbEncoding, DigitalRise.Graphics"
       },
       "Name": "_sky",
       "Children": [
         {
-          "$type": "DigitalRise.SceneGraph.LightNode, DigitalRise",
+          "$type": "DigitalRise.SceneGraph.LightNode, DigitalRise.Graphics",
           "Light": {
-            "$type": "DigitalRise.Data.Lights.AmbientLight, DigitalRise",
+            "$type": "DigitalRise.Data.Lights.AmbientLight, DigitalRise.Graphics",
             "Color": "255, 255, 255, 255",
             "Intensity": 0.5,
             "HdrScale": 0.1,
@@ -42,9 +42,9 @@
           "ScaleLocal": "1, 1, 1"
         },
         {
-          "$type": "DigitalRise.SceneGraph.LightNode, DigitalRise",
+          "$type": "DigitalRise.SceneGraph.LightNode, DigitalRise.Graphics",
           "Light": {
-            "$type": "DigitalRise.Data.Lights.DirectionalLight, DigitalRise",
+            "$type": "DigitalRise.Data.Lights.DirectionalLight, DigitalRise.Graphics",
             "Color": "255, 255, 255, 255",
             "DiffuseIntensity": 1.0,
             "SpecularIntensity": 1.0,
@@ -60,7 +60,7 @@
               "FilterRadius": 1.0,
               "JitterResolution": 2048.0,
               "FadeOutRange": 0.1,
-              "CascadeSelection": 1,
+              "CascadeSelection": "Best",
               "IsCascadeLocked": [
                 false,
                 false,
@@ -88,12 +88,12 @@
       "ScaleLocal": "1, 1, 1"
     },
     {
-      "$type": "DigitalRise.SceneGraph.Primitives.Plane, DigitalRise",
+      "$type": "DigitalRise.SceneGraph.Primitives.Plane, DigitalRise.Graphics",
       "Size": "200, 200",
       "Tessellation": "1, 1",
-      "NormalDirection": 1,
+      "NormalDirection": "UpY",
       "Material": {
-        "$type": "DigitalRise.Data.Materials.DefaultMaterial, DigitalRise",
+        "$type": "DigitalRise.Data.Materials.DefaultMaterial, DigitalRise.Graphics",
         "DiffuseColor": "255, 255, 255, 255",
         "DiffuseTexturePath": "D:\\Projects\\DigitalRise.Samples\\DigitalRise.Samples.FNA.Core\\Assets\\Textures\\checker.png"
       },
@@ -106,25 +106,19 @@
       "ScaleLocal": "1, 1, 1"
     },
     {
-      "$type": "DigitalRise.SceneGraph.PrefabNode, DigitalRise",
-      "PrefabPath": "D:\\Projects\\DigitalRise.Samples\\DigitalRise.Samples.FNA.Core\\Assets\\Prefabs\\dude.prefab",
+      "$type": "DigitalRise.SceneGraph.PrefabNode, DigitalRise.Graphics",
+      "PrefabPath": "..\\Models\\Dude\\Dude.prefab",
+      "Children": [],
       "IsEnabled": true,
       "ScaleLocal": "1, 1, 1"
     },
     {
-      "$type": "DigitalRise.SceneGraph.PrefabNode, DigitalRise",
-      "PrefabPath": "D:\\Projects\\DigitalRise.Samples\\DigitalRise.Samples.FNA.Core\\Assets\\Prefabs\\dude.prefab",
+      "$type": "DigitalRise.SceneGraph.PrefabNode, DigitalRise.Graphics",
+      "PrefabPath": "..\\Models\\RustyCube\\RustyCube.prefab",
+      "Children": [],
       "IsEnabled": true,
       "ScaleLocal": "1, 1, 1",
-      "RotationLocal": "0, -22, 0",
-      "PositionLocal": "18, 0, 0"
-    },
-    {
-      "$type": "DigitalRise.SceneGraph.PrefabNode, DigitalRise",
-      "PrefabPath": "D:\\Projects\\DigitalRise.Samples\\DigitalRise.Samples.FNA.Core\\Assets\\Prefabs\\RustyCube.prefab",
-      "IsEnabled": true,
-      "ScaleLocal": "1, 1, 1",
-      "PositionLocal": "7, 2, 8"
+      "PositionLocal": "5, 1, 3"
     }
   ],
   "IsEnabled": true,

@@ -46,3 +46,7 @@ _ReSharper*/
 
 # Office Temp Files
 ~$*
+
+*.drm
+*.jdrm
+*.dds

@@ -1,0 +1,69 @@
+{
+  "$type": "DigitalRise.SceneGraph.Sky.SkyboxNode, DigitalRise.Graphics",
+  "TexturePath": "D:\\Projects\\DigitalRise.Samples\\DigitalRise.Samples.FNA.Core\\Assets\\Textures\\Sky2.dds",
+  "Color": "255, 255, 255, 255",
+  "Alpha": 1.0,
+  "Encoding": {
+    "$type": "DigitalRise.Misc.Encodings.SRgbEncoding, DigitalRise.Graphics"
+  },
+  "Children": [
+    {
+      "$type": "DigitalRise.SceneGraph.LightNode, DigitalRise.Graphics",
+      "Light": {
+        "$type": "DigitalRise.Data.Lights.AmbientLight, DigitalRise.Graphics",
+        "Color": "255, 255, 255, 255",
+        "Intensity": 0.5,
+        "HdrScale": 0.1,
+        "HemisphericAttenuation": 0.8
+      },
+      "Name": "_ambientLight",
+      "Children": [],
+      "IsEnabled": true,
+      "ScaleLocal": "1, 1, 1"
+    },
+    {
+      "$type": "DigitalRise.SceneGraph.LightNode, DigitalRise.Graphics",
+      "Light": {
+        "$type": "DigitalRise.Data.Lights.DirectionalLight, DigitalRise.Graphics",
+        "Color": "255, 255, 255, 255",
+        "DiffuseIntensity": 1.0,
+        "SpecularIntensity": 1.0,
+        "HdrScale": 0.4,
+        "TextureScale": "1, 1",
+        "Shadow": {
+          "NumberOfCascades": 4,
+          "Distances": "4, 12, 20, 80",
+          "MinLightDistance": 100.0,
+          "DepthBias": "5, 5, 5, 5",
+          "NormalOffset": "2, 2, 2, 2",
+          "NumberOfSamples": -1,
+          "FilterRadius": 1.0,
+          "JitterResolution": 2048.0,
+          "FadeOutRange": 0.1,
+          "CascadeSelection": "Best",
+          "IsCascadeLocked": [
+            false,
+            false,
+            false,
+            false
+          ],
+          "SplitDistribution": 0.9,
+          "FadeOutDistance": 50.0,
+          "MaxDistance": 70.0,
+          "DepthBiasScale": "0.99, 0.99, 0.99, 0.99",
+          "DepthBiasOffset": "-0.001, -0.001, -0.001, -0.001",
+          "PreferredSize": 1024,
+          "Prefer16Bit": true
+        }
+      },
+      "Name": "_directLight",
+      "Children": [],
+      "IsEnabled": true,
+      "ScaleLocal": "1, 1, 1",
+      "RotationLocal": "-70, 13, 0",
+      "PositionLocal": "0, 60, 0"
+    }
+  ],
+  "IsEnabled": true,
+  "ScaleLocal": "1, 1, 1"
+}

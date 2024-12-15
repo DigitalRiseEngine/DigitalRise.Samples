@@ -21,7 +21,42 @@
       "SpecularPower": 80.0
     }
   ],
-  "Children": [],
+  "Children": [
+    {
+      "$type": "DigitalRise.SceneGraph.LightNode, DigitalRise.Graphics",
+      "Light": {
+        "$type": "DigitalRise.Data.Lights.ProjectorLight, DigitalRise.Graphics",
+        "Color": "255, 204, 1, 255",
+        "DiffuseIntensity": 1.0,
+        "SpecularIntensity": 1.0,
+        "HdrScale": 1.0,
+        "Projection": {
+          "$type": "DigitalRise.Geometry.Shapes.PerspectiveViewVolume, DigitalRise.Geometry",
+          "FieldOfViewY": 45.0,
+          "Near": 0.25,
+          "Far": 7.0
+        },
+        "Attenuation": 4.0,
+        "Shadow": {
+          "DefaultNear": 0.01,
+          "DepthBias": 2.0,
+          "NormalOffset": 2.0,
+          "NumberOfSamples": -1,
+          "FilterRadius": 1.0,
+          "JitterResolution": 2048.0,
+          "DepthBiasScale": 0.99,
+          "DepthBiasOffset": -0.001,
+          "PreferredSize": 512,
+          "Prefer16Bit": true
+        }
+      },
+      "Name": "",
+      "Children": [],
+      "IsEnabled": true,
+      "ScaleLocal": "1, 1, 1",
+      "RotationLocal": "270, 0, 0"
+    }
+  ],
   "IsEnabled": true,
   "CastsShadows": true,
   "ScaleLocal": "1, 1, 1"
